@@ -1,14 +1,14 @@
 //
-//  LineChartView.swift
+//  AreaChartView.swift
 //  SwiftUICharts
 //
-//  Created by Shajir Kalady on 11/9/22.
+//  Created by Shajir Kalady on 11/14/22.
 //
 
 import SwiftUI
 import Charts
 
-struct LineChartView: View {
+struct AreaChartView: View {
     var data: [SensorValue] = [
         .init(hour: 0, value: 5.5),
         .init(hour: 2, value: 6.25),
@@ -30,7 +30,7 @@ struct LineChartView: View {
     
     var body: some View {
         Chart(data) {
-            LineMark (
+            AreaMark (
                 x: .value("Time", $0.hour),
                 y: .value("Value", $0.value)
             )
@@ -47,15 +47,8 @@ struct LineChartView: View {
     
 }
 
-struct LineChartView_Preview: PreviewProvider {
+struct AreaChartView_Preview: PreviewProvider {
     static var previews: some View {
-        LineChartView()
+        AreaChartView()
     }
-}
-
-struct SensorValue: Identifiable {
-    var hour: Int
-    var value: Double
-    var name: String = ""
-    var id = UUID()
 }

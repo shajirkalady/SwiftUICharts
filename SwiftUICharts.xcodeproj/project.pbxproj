@@ -16,6 +16,11 @@
 		D4EC3147291C0CCF00DCA78A /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC3146291C0CCF00DCA78A /* BarChartView.swift */; };
 		D4EC3149291C0D0800DCA78A /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC3148291C0D0800DCA78A /* LineChartView.swift */; };
 		D4EC314B291C0D1300DCA78A /* PointChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC314A291C0D1300DCA78A /* PointChartView.swift */; };
+		D4EC314D2922AC4400DCA78A /* StackedBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC314C2922AC4400DCA78A /* StackedBarChartView.swift */; };
+		D4EC314F2922B22000DCA78A /* AreaChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC314E2922B22000DCA78A /* AreaChartView.swift */; };
+		D4EC31512922B70C00DCA78A /* RectangleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC31502922B70C00DCA78A /* RectangleChartView.swift */; };
+		D4EC31532922B8B600DCA78A /* MultipleLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC31522922B8B600DCA78A /* MultipleLineChart.swift */; };
+		D4EC31552922BD4D00DCA78A /* LinePointChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC31542922BD4D00DCA78A /* LinePointChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		D4EC3146291C0CCF00DCA78A /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 		D4EC3148291C0D0800DCA78A /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
 		D4EC314A291C0D1300DCA78A /* PointChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointChartView.swift; sourceTree = "<group>"; };
+		D4EC314C2922AC4400DCA78A /* StackedBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedBarChartView.swift; sourceTree = "<group>"; };
+		D4EC314E2922B22000DCA78A /* AreaChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaChartView.swift; sourceTree = "<group>"; };
+		D4EC31502922B70C00DCA78A /* RectangleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleChartView.swift; sourceTree = "<group>"; };
+		D4EC31522922B8B600DCA78A /* MultipleLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleLineChart.swift; sourceTree = "<group>"; };
+		D4EC31542922BD4D00DCA78A /* LinePointChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinePointChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,11 @@
 				D4EC3146291C0CCF00DCA78A /* BarChartView.swift */,
 				D4EC3148291C0D0800DCA78A /* LineChartView.swift */,
 				D4EC314A291C0D1300DCA78A /* PointChartView.swift */,
+				D4EC314E2922B22000DCA78A /* AreaChartView.swift */,
+				D4EC31502922B70C00DCA78A /* RectangleChartView.swift */,
+				D4EC314C2922AC4400DCA78A /* StackedBarChartView.swift */,
+				D4EC31522922B8B600DCA78A /* MultipleLineChart.swift */,
+				D4EC31542922BD4D00DCA78A /* LinePointChartView.swift */,
 			);
 			path = Charts;
 			sourceTree = "<group>";
@@ -161,10 +176,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4EC3142291C04A200DCA78A /* MasterView.swift in Sources */,
+				D4EC314F2922B22000DCA78A /* AreaChartView.swift in Sources */,
+				D4EC31552922BD4D00DCA78A /* LinePointChartView.swift in Sources */,
 				D4EC3136291C043500DCA78A /* ContentView.swift in Sources */,
+				D4EC31532922B8B600DCA78A /* MultipleLineChart.swift in Sources */,
 				D4EC3147291C0CCF00DCA78A /* BarChartView.swift in Sources */,
 				D4EC3134291C043500DCA78A /* SwiftUIChartsApp.swift in Sources */,
+				D4EC31512922B70C00DCA78A /* RectangleChartView.swift in Sources */,
 				D4EC314B291C0D1300DCA78A /* PointChartView.swift in Sources */,
+				D4EC314D2922AC4400DCA78A /* StackedBarChartView.swift in Sources */,
 				D4EC3144291C063E00DCA78A /* ChartDetailView.swift in Sources */,
 				D4EC3149291C0D0800DCA78A /* LineChartView.swift in Sources */,
 			);

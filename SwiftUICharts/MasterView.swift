@@ -17,6 +17,7 @@ struct MasterView: View {
                     Text(item.name)
                         .font(.headline)
                         .fontWeight(.bold)
+                        .padding(.top, 10)
                     Text(item.info)
                         .font(.subheadline)
                         .fontWeight(.light)
@@ -28,6 +29,16 @@ struct MasterView: View {
                         LineChartView()
                     case .point:
                         PointChartView()
+                    case .area:
+                        AreaChartView()
+                    case .rectangle:
+                        RectangleChartView()
+                    case .stackedBar:
+                        StackedBarChartView()
+                    case .multiLine:
+                        MultipleLineChart()
+                    case .linePoint:
+                        LinePointChartView()
                     }
                 }
                 .padding(.bottom, 20)

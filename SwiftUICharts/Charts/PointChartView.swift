@@ -23,7 +23,7 @@ struct PointChartView: View {
         .init(hour: 18, value: 13.3),
         .init(hour: 20, value: 11.1),
         .init(hour: 22, value: 12.5),
-        .init(hour: 22, value: 9.3),
+        .init(hour: 24, value: 9.3),
         .init(hour: 26, value: 7.1),
         .init(hour: 28, value: 6.5),
         .init(hour: 30, value: 4.5)
